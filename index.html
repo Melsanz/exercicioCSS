@@ -5,66 +5,78 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
     <title>Receita de Brownie</title>
 </head>
 
 <body>
-    <style>
-        body {
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 5%;
-            width: 95%
-        }
-    </style>
 
-    <summary><strong>
-            O que você vai encontrar nesse conteúdo
-        </strong></summary><br>
-    <div class="topnav">
-        <a href="#primario">Melhor receita do mundo</a><br>
-        <a href="#secundario">O que ingredientes precisas</a><br>
-        <a href="#terciario">Como fazer um brownie perfeito</a><br>
+    <div id="topnav1" class="topnav">
+        <b>O que você vai encontrar nesse conteúdo:</b>
+        <ul class="nav">
+            <li>
+                <nav>
+                    <a href="#container"> Melhor receita</a>
+                </nav>
+            </li>
+            <li>
+                <nav>
+                    <a href="#segundo2">Ingredientes a utilizar</a>
+                </nav>
+            </li>
+
+            <li>
+                <nav>
+                    <a href="#terceiro">Um brownie perfeito</a>
+                </nav>
+            </li>
+            <li>
+                <nav>
+                    <a href="#video">Video da preparação</a>
+                </nav>
+            </li>
+        </ul>
     </div>
 
-    <div id="primario">
+    <header>
+        <div id="container">
+            <h1 class="primeiro">Receita de Brownie</h1>
+            <p>Aprenda aqui a receita do Melhor Brownie do Mundo,
+                uma receita de brownie com aquela casquinha crocante!
+                E é super fácil de preparar!</p>
+        </div>
+    </header>
 
-        <h1>Receita de Brownie</h1>
-        <p>Aprenda aqui a receita do Melhor Brownie do Mundo,
-            uma receita de brownie tradicional com aquela casquinha crocante!
-            E é super fácil de preparar!</p>
+    <img src="https://p7m4z9n9.stackpathcdn.com/wp-content/uploads/2018/10/receitadebrownie.jpg"
+        alt="brownie irresistível" width="800px" height="400px">
 
-        <img src="https://p7m4z9n9.stackpathcdn.com/wp-content/uploads/2018/10/receitadebrownie.jpg"
-            alt="brownie irresistível" width="800px" height="400px">
+    <div>
+        <span>
+            Para mim, a melhor invenção de doce já criada.
+            Declarações a parte, o brownie é um bolo que não é um bolo,
+            leva pouca farinha e é feito, na sua maioria, sem fermento.
 
-        <div>
-            <span>
-                Para mim, a melhor invenção de doce já criada.
-                Declarações a parte, o brownie é um bolo que não é um bolo,
-                leva pouca farinha e é feito, na sua maioria, sem fermento.
+            É a receita perfeita de brownie, pois os brownies ficam mais moles,
+            molhadinhos e menos parecidos com um bolo como muitas que se encontram por aí.
+            E como vocês poderão ver no modo de preparo, ela é ótima para quem gosta de praticidade.
+        </span>
 
-                É a receita perfeita de brownie, pois os brownies ficam mais moles,
-                molhadinhos e menos parecidos com um bolo como muitas que se encontram por aí.
-                E como vocês poderão ver no modo de preparo, ela é ótima para quem gosta de praticidade,
-                pois é toda é feita em uma única tigela!
-            </span>
-
-            <div id="secundario">
+        <hr>
+        <header>
+            <div id="segundo2" class="segundo">
                 <h2>QUAIS SÃO OS INGREDIENTES PARA PREPARAR ESTA RECEITA DE BROWNIES?</h2>
                 <p>Para esta receita de brownies você irá precisar de:</p>
                 <ul>
                     <li>
-                        <span>100 g manteiga sem sal</span>
+                        <span>170 g manteiga sem sal</span>
                     </li>
                     <li>
-                        <span>180 g chocolate meio amargo</span>
+                        <span>120 g chocolate meio amargo 70%</span>
                     </li>
                     <li>
-                        <span>1 xícara de çúcar refinado</span>
+                        <span>200 g xícara de çúcar refinado</span>
                     </li>
-                    <li>
-                        <span>1/2 xícara de açúcar mascavo</span>
-                    </li>
+
                     <li>
                         <span>3 ovos</span>
                     </li>
@@ -72,52 +84,85 @@
                         <span>1 colher (chá) de extrato de baunilha</span>
                     </li>
                     <li>
-                        <span>1/2 colher de sal</span>
+                        <span>40 g de cacau amargo</span>
                     </li>
                     <li>
-                        <span>2 colheres (sopa) de cacau em pó</span>
+                        <span>60 g de farinha de trigo</span>
                     </li>
                     <li>
-                        <span>3/4 de xícara de farinha de trigo</span>
+                        <span>1 colher de café de sal fino </span>
+                    </li>
+                    <li>
+                        <span>170 g de chips de chocolate </span>
+                    </li>
+                    <li>
+                        <span>1 colher de chá de café instantâneo </span>
+                    </li>
+                    <li>
+                        <span>1 colher de chá de sal marinho</span>
+                    </li>
+                    <li>
+                        <span>100 g de nozes torradas</span>
                     </li>
                 </ul>
             </div>
+        </header>
 
-            <div id="terciario">
-
-                <h2>COMO FAZER BROWNIE?</h2>
+        <hr>
+        <header>
+            <div id="terceiro">
+                <h2 class="terceiro">COMO FAZER BROWNIE?</h2>
                 <ol>
                     <li><span>
                             Para preparar esta receita de brownies você irá começar pré-aquecendo o forno em 180C.
                         </span></li>
                     <li><span>
-                            Forre uma forma (de aproximadamente 20cmx30cm) com papel manteiga.
+                            Forre uma forma com papel manteiga.
                         </span></li>
                     <li><span>
-                            Derreta a manteiga e o chocolate (nós utilizamos o forno de microondas, devagar,
-                            colocando 30 segundos por vez,mexendo e vendo como está ficando).
+                            Derreter a manteiga na frigideira até dourar e logo desligar.
                         </span></li>
                     <li><span>
-                            A próxima etapa é adicionar os açúcares e misturar bem.
+                            acrescente café e chocolate, logo misture e reserve.
                         </span></li>
                     <li><span>
-                            Coloque os ovos, um por vez e adicione a baunilha.
+                            A próxima etapa é bater os ovos junto com açúcar por 8min.
                         </span></li>
                     <li><span>
-                            Acrescente o sal e o cacau em pó.
+                            Misture os secos e peneire.
                         </span></li>
                     <li><span>
-                            Por fim adicione a farinha e misture bem.
+                            Misture o chocolate aos ovos acrescente a baunilha,
+                            os secos, os chips de chocolate e as nozes.
                         </span></li>
                     <li><span>
-                            Coloque a massa uniformemente na forma e asse em torno de 25 a 30
-                            minutos. Se você espetar um palito na massa ele não deve sair completamente limpo.
+                            Por último coloque em forma quadrada de 22 por 22 cm e cozinhe por 20 minutos a 180 graus.
                         </span></li>
+                </ol>
+            </div>
+        </header>
 
-                    <hr>
-                    <p><b>Preparo:</b>10 minutos.</p>
+        <hr>
+            <div class="final">
+                Preparo:20 minutos. <br>
+                Rendimento:12 porções.
+            </div>
 
-                    <p><b>Rendimento:</b>10 porções.</p>
+            <div id="video">
+                <h3 class="video">VIDEO DA PREPARAÇÃO</h3>
+            </div>
+
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W0Oi_KSLs9Y"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+
+            <div id="fin">
+                <nav><a href="#topnav1">
+                        <h3 class="h3">voltar para o topo</h3>
+                    </a></nav>
+
+            </div>
 
 </body>
 
